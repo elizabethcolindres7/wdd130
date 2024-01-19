@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,600&display=swap');
+
+:root {
+    --primary-color: #16515C;
+    --Secondary-color: #007CC2;
+    --accent1-color: #A4B792;
+    --accent2-color: #F18805;
+
+    --heading-font: 'Work Sans', sans-serif;
+    --paragraph-font: 'Work Sans', sans-serif;
+
+    --navigation-background-color: var(--accent1-color);
+    --navigation-link-color: var(--accent2-color);
+    --navigation-hover-link-color: var(--Secondary-color);
+    --navigation-hover-background-color: var(--accent2-color);
+}
+ 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 200px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
