@@ -47,7 +47,7 @@ aside {
     margin-left: 250px;
     border: 1px solid rgba(0, 0, 0, 0.2); /* W use RGBA because of the opacity.*/
     padding: 1em;
-    background-color: #F8F1E5;
+    background-color: hsl(38, 58%, 94%);
     text-align: center;
     position: relative;
 }
