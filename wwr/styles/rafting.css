@@ -35,7 +35,7 @@ h1, h2, h3, h5, h6 {
 header {
     text-align: center;
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@ header nav {
 }
 
 nav a {
-    color: var(--navigation-link-color);
+    color:#fff; 
     text-decoration: none;
     padding: 1rem;
 }
@@ -165,7 +165,6 @@ article img {
 .hero-content article img {
     margin-right: 20px; 
 }
-
 
 section {
     display: flex;
