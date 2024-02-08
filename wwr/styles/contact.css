@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #16515C;
+    --Secondary-color: #007CC2;
+    --accent1-color: #A4B792;
+    --accent2-color: #F18805;
+
+    --heading-font: 'Work Sans', sans-serif;
+    --paragraph-font: 'Work Sans', sans-serif;
+
+    --navigation-background-color: var(--accent1-color);
+    --navigation-link-color: var(--primary-color);
+    --navigation-hover-link-color: var(--Secondary-color);
+    --navigation-hover-background-color: var(--accent2-color);
+}
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+h1, h2, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin-left: 20px;
+}
+
+p{
+    font-family: var(--heading-font);
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--heading-font);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 70px; 
+}
+
+header nav {
+    color: #481620;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-grow: 1; 
+    justify-content: center; 
+    align-items: center;
+}
+
+nav a {
+    color:#fff; 
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+section h2 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+section .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section .content img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+section .content p {
+    flex: 1;
+    margin: 0 10px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    
+}
+
+iframe {
+    margin-left: 20px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: left; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+h2 {
+    width: 100%; 
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+
+h3 {
+    color: var(#000000);
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+section img {
+    max-width: 100%; 
+    margin: 0 10px 10px; 
+    margin-right: 50px;
+    margin-left: 70px; 
+}
+
+section.adventure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 50px; 
+}
+
+section.adventure h2 {
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+section.adventure img {
+    max-width: 100%;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #A4B792;
+    width: 100%;
+    height: 50px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin-left: 10px; 
+}
+
+footer p {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/*Form CSS*/
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+
+label, input, button, select, textarea {
+    font-family: var(--DMSans);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
