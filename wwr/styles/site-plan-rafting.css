@@ -56,3 +56,43 @@ nav a:hover {
     color: var(--navigation-hover-link-color);
     background-color: var(--navigation-hover-background-color);
 }
+
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #A4B792;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    margin-top: auto; 
+}
+
+footer nav {
+    margin-left: 20px; 
+}
+
+footer .sociallinks,
+footer .back-to-top-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+}
+
+footer .back-to-top-nav a {
+    color: #fff; 
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin-left: 10px; 
+}
+
+footer p {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
